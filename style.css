@@ -1,0 +1,62 @@
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+header .row {
+    margin-right: 0;
+}
+
+#social-links div div {
+    padding: 30px;
+}
+
+#header-menu {
+    align-items: center;
+}
+
+#header-menu div:first-child {
+    text-align: center;
+}
+
+#header-menu div:first-child span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#header-menu ul {
+    list-style: none;
+}
+
+#header-menu ul a {
+    color: black;
+}
+
+#mobile-menu-icon {
+    display: none;
+}
+
+#header-menu ul a:not(.selected) {
+    text-decoration: none;
+}
+
+#mobile-menu-icon #mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    #social-links {
+        display: none;
+    }
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
